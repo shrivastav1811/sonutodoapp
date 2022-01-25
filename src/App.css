@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight:600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  max-width: 500px;
+  width: 100%;
+  min-height: 400px;
+  box-shadow: 0 2px 6px #555;
+  margin: 50px auto;
+  padding: 50px;
 }
+ h1{
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 900;
+   color: #666;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ form{
+   width: 100%;
+   height: 40px;
+   margin: 20px 0;
+   display: flex;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ form input,
+ form button{
+   flex: 3;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #555;
+   margin: 0 5px;
+ }
+
+form button{
+  flex:1;
+  background:#555;
   color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+ul li{
+  list-style: none;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+ul li .active{
+  opacity: .5;
+  text-decoration: line-through;
+}
+
+ul li input,
+.row input{
+  margin-right: 5px;
+  transform: translateY(1px);
+}
+
+ul li button,
+.row button{
+  border : none;
+  outline: none;
+  color:white;
+  background-color: orange;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+ul li button:disabled{
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row #delete{
+  background-color: crimson;
+}
+
+label{
+  cursor: pointer;
+}
+
+@media (max-width: 400px){
+  .container{
+    padding: 10px;
   }
 }
+
+h2{
+  text-align: center;
+  color: crimson; 
+}
+
+
+
+
+
+
+
+
+
+
+
