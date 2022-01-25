@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sonutodoapp/static/css/main.a98be053.css",
+    "main.js": "/sonutodoapp/static/js/main.705ff56a.js",
+    "static/js/787.759e47f1.chunk.js": "/sonutodoapp/static/js/787.759e47f1.chunk.js",
+    "index.html": "/sonutodoapp/index.html",
+    "main.a98be053.css.map": "/sonutodoapp/static/css/main.a98be053.css.map",
+    "main.705ff56a.js.map": "/sonutodoapp/static/js/main.705ff56a.js.map",
+    "787.759e47f1.chunk.js.map": "/sonutodoapp/static/js/787.759e47f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a98be053.css",
+    "static/js/main.705ff56a.js"
+  ]
+}
